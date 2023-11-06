@@ -1,12 +1,14 @@
 #include <stdio.h>
 
 /**
-* main - compilation
-* description - a program that the name of the file it was compiled from
-* return: 0
-*/
+ * main - Entry point of the program
+ *
+ * Description: A program that prints the name of the file it was compiled from
+ *
+ * Return: 0 (Success)
+ */
 
-int main(void) 
+int main(void)
 {
 
 printf("%s\n", __FILE__);
